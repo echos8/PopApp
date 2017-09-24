@@ -4,22 +4,26 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    Hello Echo!
-  </p>
+<ion-content padding id="home">
+    <img src="assets/imgs/poplogo.jpeg" class="logo"/>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1>Welcome to the POP-APP</h1>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
-  <ion-grid >
-    <ion-row>
-      <ion-col center text-center>
-        <button ion-button full color="success" (click)="signup()">Sign up</button>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col center text-center>
-        <button ion-button full color="lightText" (click)="login()">Log in</button>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+    <ion-grid >
+      <ion-row>
+        <ion-col center text-center>
+          <button ion-button full color="success" (click)="signup()">Sign up</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col center text-center>
+          <button ion-button full color="lightText" (click)="login()">Log in</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 </ion-content>

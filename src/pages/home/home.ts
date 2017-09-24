@@ -1,21 +1,21 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Login } from '../login/login';
-import { Signup } from '../signup/signup';
+import { LoginPage } from '../login/login';
+import { SignupPage } from '../signup/signup';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
 })
-export class Welcome {
+export class HomePage {
   constructor(public navCtrl: NavController) {
   }
 
   login(){
-    this.navCtrl.push(Login);
+    this.navCtrl.push(LoginPage);
   }
 
   signup(){
-    this.navCtrl.push(Signup);
+    this.navCtrl.push(SignupPage);
   }
 }

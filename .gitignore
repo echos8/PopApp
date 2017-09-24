@@ -12,5 +12,6 @@ target/
 # Intellij
 *.iml
 .idea
+node_modules
 
 

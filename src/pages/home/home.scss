@@ -10,6 +10,12 @@ page-home {
     }
     .logo{
       height: 100px;
+      width: 100px;
+      display:inline-block;
     }
+  }
+  .titleicon div{
+    display:inline-block;
+    margin-bottom:10px;
   }
 }

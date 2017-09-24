@@ -1,28 +1,30 @@
 <ion-header>
+
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <img src="assets/imgs/poplogo.jpeg"  class="logo" width="100px" style="display:inline-block" height="100px" />
+    <ion-title class="titleicon" style="display:inline-block" >Home</ion-title>
+
   </ion-navbar>
 </ion-header>
 
 <ion-content padding id="home">
-    <img src="assets/imgs/poplogo.jpeg" class="logo"/>
     <ion-grid>
       <ion-row>
         <ion-col>
-          <h1>Welcome to the POP-APP</h1>
+          <h3>Welcome to the POP APP</h3>
         </ion-col>
       </ion-row>
     </ion-grid>
 
     <ion-grid >
       <ion-row>
-        <ion-col center text-center>
-          <button ion-button full color="success" (click)="signup()">Sign up</button>
+        <ion-col center>
+          <button ion-button round color="success" (click)="signup()">Sign up</button>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col center text-center>
-          <button ion-button full color="lightText" (click)="login()">Log in</button>
+        <ion-col center>
+          <button ion-button round color="lightText" (click)="login()">Log in</button>
         </ion-col>
       </ion-row>
     </ion-grid>
